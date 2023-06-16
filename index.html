@@ -8,36 +8,93 @@
 </head>
 <body>
   <header>
-    <h1>My Project Portfolio</h1>
+    <!-- <h1>My Project Portfolio</h1> -->
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li class="left"><a href="#home">Home</a></li>
+        <li class="right"><a href="#projects">Projects</a></li>
+        <li class="right"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section id="home">
-      <h2>Welcome to My Portfolio!</h2>
-      <!-- Add your introduction or any other content here -->
+    <section id="home" class="hidden">
+      <div class="Home">
+        <div class="Title">
+          <h1>Alvan Alam</h1>
+          <h2>Computer Engineering Student at the University of Saskatchewan</h2>
+        </div>
+        <div class="Profile">
+          <img src="Profile.png" alt="profile icon" width="300" height="300">
+        </div>
+      </div>
+      <div class="About">
+        <h3>About Me</h3>
+        <p>Hi, my name is Alvan, I am a computer engineering student at the University of Saskatchewan.
+          My passion for software development began at a young age and has only grown 
+          stronger since. I'm always eager to learn and explore new technologies, and 
+          I find the limitless possibilities of software to be endlessly fascinating. 
+          Whether it's working on group projects or personal endeavors, I enjoy the 
+          challenge of creating web-based applications and honing my programming skills. 
+          Through these experiences, I've developed strong leadership and communication 
+          abilities, which I believe are vital to any team's success. I'm always on the 
+          lookout for new opportunities to learn and grow, and I'm excited to see where 
+          my journey in computer engineering will take me.
+        </p>
+      </div>
     </section>
 
-    <section id="projects">
-      <h2>My Projects</h2>
-      <!-- Add your project details, images, descriptions, etc. here -->
+    <section id="projects" class="hidden">
+      <div class="Projects">
+        <h1>My Projects</h1>
+        <div class="box">
+          <section>
+            <div class="Description">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                anim id est laborum.</p>
+            </div>
+            <div class="image">
+              <img src="Profile.png" alt="profile icon" width="400" height="400">
+            </div>
+          </section>
+          <section>
+            <div class="Description">
+              <h2>Title</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna 
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
+                aute irure dolor in reprehenderit in voluptate velit esse 
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+                anim id est laborum.</p>
+            </div>
+            <div class="image">
+              <img src="Profile.png" alt="profile icon" width="400" height="400">
+            </div>
+          </section>
+        </div>
+      </div>
     </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <!-- Add your contact information or a contact form here -->
-    </section>
+    
   </main>
-
   <footer>
-    <!-- Add your footer content here -->
+    <section id="contact" class="hidden" >
+      <h1>Contact Me</h1>
+    </section>
   </footer>
+  <script src="main.js">
+
+  </script>
 </body>
 </html>
 
